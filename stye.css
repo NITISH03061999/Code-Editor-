@@ -1,0 +1,48 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "poppins", "sans-serif";
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+}
+.right,
+.left {
+  flex-basis: 50%;
+  padding: 10px;
+}
+textarea {
+  width: 100%;
+  height: 28%;
+  outline: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  background: #1f1f1f;
+  color: #fff;
+}
+.output-head {
+  padding-left: 10px;
+}
+.icons {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+iframe {
+  width: 100%;
+  height: 95%;
+  background: #fff;
+  border: 1px solid black;
+  outline: none;
+}
+label {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  height: 30px;
+  color: white;
+}
